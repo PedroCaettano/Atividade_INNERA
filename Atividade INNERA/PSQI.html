@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Questionário PSQI sobre qualidade de sono. Software criado pela INNERA Health </title>
+<h1>Questionário PSQI sobre qualidade de sono. Software criado pela INNERA Health</h1>
+<h2>Preencha o questionário abaixo com atenção. Leia as perguntas atentamente e preencha as alternativas com cuidado</h2>
+<h2>Formulário sobre a qualidade de sono. Preencha as respostas com cuidado</h2>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<form action="/submit" method="Post">
+<!--Pergunta 1:  Durante o último mês, quando você geralmente foi para a cama a noite?-->
+<h3>1. Durante o último mês, quando você geralmente foi para a cama a noite?</h3>
+<input type="text" id="bedtime" name="bedtime" placeholder="Exemplo: 22:30 " required ><br>
+
+<!--Pergunta 2: Durante o último mês, quanto tempo (em minutos) você geralmente levou para dormir a 
+noite?-->
+<h3>2. Durante o último mês, quanto tempo (em minutos) você geralmente levou para dormir a 
+    noite?</h3>
+<input type="number" id="fall_asleep_time" name="fall_asleep_time" placeholder="Exemplo: 5 minutos" required><br>
+
+<!--Pergunta 3: Durante o último mês, quando você geralmente levantou de manhã?-->
+<h3 for="wake_time">3. Durante o último mês, quando você geralmente levantou de manhã?</h3>
+<input type="text" id="wake_time" name="wake_time" placeholder="Exemplo: 06:30 " required><br>
+
+<!--Pergunta 4: Durante o último mês, quantas horas de sono você teve por noite? (Este pode ser diferente 
+do número de horas que você ficou na cama)-->
+<h3>4. Durante o último mês, quantas horas de sono você teve por noite? (Este pode ser diferente 
+    do número de horas que você ficou na cama)</h3>
+<input type="number" id="sleep_duration" name="sleep_duration" step="01" placeholder="Exemplo: 6 horas de sono" required><br>
+
+
+<!--Pergunta 5:  Durante o último mês, com que frequência você teve 
+dificuldade para dormir porque você...-->
+<h3>5. Durante o último mês, com que frequência você teve 
+    dificuldade para dormir porque você...</h3>
+
+<p>a. Não consegue pegar no sono em 30 minutos </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>b. Acorda no meio da noite ou de manhã cedo 
+    manhã </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>c. Tem que se levantar para ir ao banheiro </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>d. Não consegue respirar confortavelmente </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>e. Tossir ou roncar alto </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>f. Sentir muito frio </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>g. Sentir muito calor </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>h. Ter sonhos ruins </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>i. Sentir dor </p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+
+<p>j. Outro(s) motivo(s), por favor, descreva:</p>
+<label><input type="radio" name="q5a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q5a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q5a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q5a" value="3" required> Três ou mais vezes por semana</label><br>
+<textarea id="q5j_text" name="q5j_text" placeholder="Se há outro motivo, descreva aqui..."></textarea><br>
+
+
+<!--Pergunta 6: Durante o último mês como você classificaria a 
+qualidade do seu sono de uma maneira geral: 
+Muito boa -->
+<h3 for ="q3">6. Durante o último mês como você classificaria a 
+    qualidade do seu sono de uma maneira geral?</h3>
+<select id="q3" name="q3" required>
+<option value ="0"> Não durante o último mês</option>
+<option value ="1">Menos de uma vez por semana</option>
+<option value ="2">Uma ou duas vezes por semana</option>
+<option value ="3">Três ou mais vezes por semana</option>
+</select>
+
+<!--Pergunta 7:  Durante o último mês, com que frequência você tomou 
+medicamento (prescrito ou “por conta própria”) para lhe 
+ajudar a dormir?-->
+<h3 for="q3">7. Durante o último mês, com que frequência você tomou 
+    medicamento (prescrito ou “por conta própria”) para lhe 
+    ajudar a dormir?</h3>
+
+<select id="q3" name="q3" required>
+    <option value ="0"> Não durante o último mês</option>
+    <option value ="1">Menos de uma vez por semana</option>
+    <option value ="2">Uma ou duas vezes por semana</option>
+    <option value ="3">Três ou mais vezes por semana</option>
+</select>
+
+<!--Pergunta 8: No último mês, que frequência você teve dificuldade 
+para ficar acordado enquanto dirigia, comia ou participava 
+de uma atividade social (festa, reunião de amigos, 
+trabalho, estudo)-->
+<h3 for ="q3">8. Que frequência você teve dificuldade 
+    para ficar acordado enquanto dirigia, comia ou participava 
+    de uma atividade social (festa, reunião de amigos, 
+    trabalho, estudo)..</h3>
+<select id="q3" name="q3" required>
+<option value ="0">Nenhuma no último mês</option>
+<option value ="1">Menos de uma vez por semana</option>
+<option value ="2">Uma ou duas vezes por semana</option>
+<option value ="3">Três ou mais vezes na semana</option>
+</select>
+
+
+<!--Pergunta 9:  Durante o último mês, quão problemático foi pra você 
+manter o entusiasmo (ânimo) para fazer as coisas (suas 
+atividades habituais)?-->
+<h3 for="q3">9. Quão problemático foi pra você 
+    manter o entusiasmo (ânimo) para fazer as coisas (suas 
+    atividades habituais)? (0 = Nenhuma dificuldade, 3 = Um problema grande ) </h3>
+<select id="q3" name="q3" required>
+<option value ="0">Nenhuma dificuldade</option>
+<option value ="1"> Um problema leve</option>
+<option value ="2"> Um problema razoável </option>
+<option value ="3"> Um grande problema</option>
+
+</select>
+
+
+<!--Pergunta 10:  Você tem um(a) parceiro [esposo (a)] ou colega de 
+quarto?''-->
+<h3 for="q3">10. Você tem um(a) parceiro [esposo (a)] ou colega de 
+    quarto?</h3>
+
+    <label><input type="radio" name="bed_partner" value="0" required> Não tenho parceiro(a) de cama ou colega de quarto</label><br>
+    <label><input type="radio" name="bed_partner" value="1" required> Parceiro(a)/colega de quarto em outro quarto</label><br>
+    <label><input type="radio" name="bed_partner" value="2" required> Parceiro(a) no mesmo quarto, mas não na mesma cama</label><br>
+    <label><input type="radio" name="bed_partner" value="3" required> Parceiro(a) na mesma cama</label><br><br>
+
+<h3>Se você tem um(a) parceiro(a) de cama ou colega de quarto, pergunte a ele(a) com que frequência no último mês você teve:</h3>
+
+</p>a. Ronco alto</p>
+<label><input type="radio" name="q10a" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q10a" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q10a" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q10a" value="3" required> Três ou mais vezes por semana</label><br><br>
+
+<p>b. Pausas longas entre respirações enquanto dorme</p>
+<label><input type="radio" name="q10b" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q10b" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q10b" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q10b" value="3" required> Três ou mais vezes por semana</label><br><br>
+
+<p>c. Pernas se contorcendo ou mexendo enquanto dorme</p>
+<label><input type="radio" name="q10c" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q10c" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q10c" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q10c" value="3" required> Três ou mais vezes por semana</label><br><br>
+
+<p>d. Episódios de desorientação ou confusão durante o sono</p>
+<label><input type="radio" name="q10d" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q10d" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q10d" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q10d" value="3" required> Três ou mais vezes por semana</label><br><br>
+
+<p>e. Outros tipos de inquietação durante o sono, por favor descreva:</p>
+<label><input type="radio" name="q10e" value="0" required> Não durante o último mês</label><br>
+<label><input type="radio" name="q10e" value="1" required> Menos de uma vez por semana</label><br>
+<label><input type="radio" name="q10e" value="2" required> Uma ou duas vezes por semana</label><br>
+<label><input type="radio" name="q10e" value="3" required> Três ou mais vezes por semana</label><br><br>
+
+<textarea id="q10e_text" name="q10e_text" placeholder="Se houver outros tipos de inquietação, descreva aqui..."></textarea><br><br>
+
+<!-- Botão para enviar o formulário -->
+<button type="submit">Enviar</button>
+
+</form>
+
+<script>
+function validarFormulario() {
+    const form = document.getElementById('questionario');
+    
+    // Verifica se o formulário foi preenchido corretamente
+    if (!form.checkValidity()) {
+        alert('Por favor, responda todas as perguntas antes de enviar.');
+        return false;
+    }
+    
+    return true;  // Permite o envio do formulário se tudo estiver correto
+}
+
+// Calculo dos pontos presentes com base nas respostas de múltipla escolha
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function calcularPontuacao() {
+
+// As perguntas identificadas como "q5", "q6", "q7" e "q8" referem-se a questões do Questionário de Qualidade do Sono de Pittsburgh (PSQI)
+// Esse código de pontuações foca diretamente em obter a pontuação total das respostas, sem a necessidade de realizar outros procedimentos. 
+// Ele apenas realiza o calculo para trazer a soma total. 
+
+    const q5Values = [
+        parseInt(document.querySelector('input[name="q5a"]:checked').value),
+        parseInt(document.querySelector('input[name="q5b"]:checked').value),
+        parseInt(document.querySelector('input[name="q5c"]:checked').value),
+        parseInt(document.querySelector('input[name="q5d"]:checked').value),
+        parseInt(document.querySelector('input[name="q5e"]:checked').value),
+        parseInt(document.querySelector('input[name="q5f"]:checked').value),
+        parseInt(document.querySelector('input[name="q5g"]:checked').value),
+        parseInt(document.querySelector('input[name="q5h"]:checked').value),
+        parseInt(document.querySelector('input[name="q5i"]:checked').value),
+    ];
+    
+    const q6 = parseInt(document.getElementById('q6').value);
+    const q7 = parseInt(document.getElementById('q7').value);
+    const q8 = parseInt(document.getElementById('q8').value);
+    const q9 = parseInt(document.getElementById('q9').value);
+    
+    const totalScore = q5Values.reduce((a, b) => a + b, 0) + q6 + q7 + q8 + q9;
+
+     // Exibindo a pontuação total e as respostas
+     alert(`Sua pontuação total do PSQI é: ${totalScore}`);
+    window.location.href = `resultados.html?pontuacao=${totalScore}`;
+}
+
+</script>
+</select><br>
+</form>
+<body>
+
+    
+</body>
+</html>
