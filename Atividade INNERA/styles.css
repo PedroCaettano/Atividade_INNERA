@@ -1,0 +1,85 @@
+/* Reset básico de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container centralizado para os resultados */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a área de pontuação */
+.score {
+    font-size: 20px;
+    margin: 20px 0;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Estilo para o número da pontuação */
+.score span {
+    font-size: 28px;
+    color: #3498db;
+}
+
+/* Estilo para links e avisos */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .score {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

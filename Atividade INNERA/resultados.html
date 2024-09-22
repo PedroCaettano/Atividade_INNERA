@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados do Questionário de Qualidade do Sono de Pittsburgh (PSQI)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados do Questionário de Qualidade do Sono de Pittsburgh (PSQI)</h1>
+        <p>Aqui estão os resultados da sua avaliação:</p>
+        <div class="score">Sua pontuação total do PSQI é: <span id="pontuacao"></span></div>
+        <p>Um escore mais alto indica uma qualidade de sono pior. Se precisar de ajuda para interpretar os resultados ou se tiver preocupações com seu sono, consulte um profissional de saúde.</p>
+    </div>
+
+    <script>
+        // Obtem a pontuação do usuário da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const pontuacao = urlParams.get('pontuacao');
+
+        // Exibe a pontuação do usuário
+        document.getElementById('pontuacao').innerHTML = pontuacao;
+    </script>
+</body>
+</html>
